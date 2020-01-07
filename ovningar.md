@@ -66,7 +66,7 @@ Illidium-Q35:git-training-kau benc$
 1. Gör valfria ändringar och gör en ny stash
 1. Lista din stash-stack [git stash list]
 1. Återställ din första stash [git stash apply stash@{1}]
-1. Bekräfta och ta bort din första stash [git stash drop stash@{1}
+1. Bekräfta och ta bort din första stash [git stash drop stash@{1}]
 
 **Övning 3**
 Starta en git session i lämplig terminal och navigera dig till det övningsrepo du skapade i introduktionskursen. 
