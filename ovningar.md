@@ -41,13 +41,33 @@ Changes not staged for commit:
 
 	modified:   new.txt
 ```
-3. Stasha alla ändringar (git stash)
-1. Bekräfta att stashningen är gjord [git status git stash list]
+3. Stasha alla ändringar [git stash]
+1. Bekräfta att stashningen är gjord 
+```
+Illidium-Q35:git-training-kau benc$ git stash
+Saved working directory and index state WIP on master: 23f82bd reset
+HEAD is now at 23f82bd reset
+Illidium-Q35:git-training-kau benc$ git status
+On branch master
+nothing to commit, working tree clean
+Illidium-Q35:git-training-kau benc$ git stash list
+stash@{0}: WIP on master: 23f82bd reset
+Illidium-Q35:git-training-kau benc$ 
+```
+5. Återställ directoriet med din sparade stash [git stash apply]
+6. Bekräfta återställning och observera att du förlorat din stagening (ändringen finns dock kvar som unstaged)
+1. Ta bort stashen från stash-stacken [git stash drop] (du kan applya och droppa samtidigt genom kommandot git stash pop
+1. Skapa en ny fil i directoriet (ny.txt). Bekräfta att filen är untracked.
+1. Stasha ditt directory inkludera den nya filen [git stash -u]
+1. Återställ, bekräfta, ta bort stashen 
+1. Skapa en ignored fil (ny.eee)
+1. Stasha ditt directory inkludera untracked och ignored [git stash -a]
+1. Återställ, bekräfta
+1. Gör valfria ändringar och gör en ny stash
+1. Lista din stash-stack [git stash list]
+1. Återställ din första stash [git stash apply stash@{1}]
+1. Bekräfta och ta bort din första stash [git stash drop stash@{1}
 
-* Stasha ett dirty directory (modified and staged tracked files)
-* Återställa en stashning (allt blir unstaged)
-* Stasha untracked (untracked, modified and staged tracked files)
-* Stasha ignored (ignored, untracked, modified and staged tracked files)
 * Lista alla stashningar
 * Återställ från specifik stashning
 * Ta bort en stash
