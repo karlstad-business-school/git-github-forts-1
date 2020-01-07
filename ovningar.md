@@ -68,17 +68,10 @@ Illidium-Q35:git-training-kau benc$
 1. Återställ din första stash [git stash apply stash@{1}]
 1. Bekräfta och ta bort din första stash [git stash drop stash@{1}
 
-* Lista alla stashningar
-* Återställ från specifik stashning
-* Ta bort en stash
+**Övning 3**
+Starta en git session i lämplig terminal och navigera dig till det övningsrepo du skapade i introduktionskursen. 
+Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 
 
-2.2) klona github repot till din lokala dator
-
-```
-illidium-q35:git benc$ cd ~/git/tmp/
-
-illidium-q35:tmp benc$ git clone https://github.com/bennchri/git-training.git
 
 
-```
