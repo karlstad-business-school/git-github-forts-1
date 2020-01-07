@@ -25,8 +25,32 @@ ex git tag -a v2 -m "Detta är version 1"
 **Övning 2**
 Starta en git session i lämplig terminal och navigera dig till det övningsrepo du skapade i introduktionskursen. 
 Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
+1. Gör en förändring i en fil och stagea filen.
+1. Gör en förändring till i samma fil en git status ska ge något liknande detta:
+```
+Illidium-Q35:git-training-kau benc$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
 
-1. Lista dina commits [git log]
+	modified:   new.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   new.txt
+```
+3. Stasha alla ändringar (git stash)
+1. Bekräfta att stashningen är gjord [git status git stash list]
+
+* Stasha ett dirty directory (modified and staged tracked files)
+* Återställa en stashning (allt blir unstaged)
+* Stasha untracked (untracked, modified and staged tracked files)
+* Stasha ignored (ignored, untracked, modified and staged tracked files)
+* Lista alla stashningar
+* Återställ från specifik stashning
+* Ta bort en stash
 
 
 2.2) klona github repot till din lokala dator
