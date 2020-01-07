@@ -28,14 +28,16 @@ Tidskoder:
 ---
 ##### [Övning 1](ovningar.md)
 ---
-
-* Integration i verktyg och varför vi inte ska använda det på grundnivå
  
-#### Git grunder (basic linjär användning)
-* Skapa ett nytt repository
-* Använda ett repository
-* Status på filer och mappar i ett git repository (untracked, staged, committed, ignored)
-* Påverka status på filer och mappar i ett git repository
+#### Git stashning
+* Stasha ett dirty directory (modified and staged tracked files)
+* Återställa en stashning (allt blir unstaged)
+* Stasha untracked (untracked, modified and staged tracked files)
+* Stasha ignored (ignored, untracked, modified and staged tracked files)
+* Lista alla stashningar
+* Återställ från specifik stashning
+* Ta bort en stash
+
 ---
 ##### [Övning 2](ovningar.md)
 ---
