@@ -41,10 +41,18 @@ Tidskoder:
 ---
 ##### [Övning 2](ovningar.md)
 ---
+
  
-* Förstå tidslinjen i ett git repo och traversera den
-* Jämför samma fil vid olika tillfällen på tidslinjen
----
+#### Git branchning
+* Skapa en ny lokal branch från head
+* Växla mellan branches
+* Skapa en ny lokal branch från en commit på tidslinjen
+* Lista alla branches i ett repo
+* Remote branches
+* Push branches to remote
+* fetch remote branches
+* Pull remote branches
+
 ##### [Övning 3](ovningar.md)
 ---
 
