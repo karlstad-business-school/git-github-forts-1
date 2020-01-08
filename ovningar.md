@@ -80,14 +80,20 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Jämför filer och innehåll mellan master och din branch
 1. Checka ut master branchen
 1. Ändra innehåll i någon existerande fil och committa
-1. Visualisera committs och branches i ditt repo [git log --graph --decorate --all]
+1. Visualisera committs och branches i ditt repo [git graph -vv eller git log --graph --decorate --all]
 1. Lista dina branches [git branch]
 1. Kontrollera vilken branch som just nu är aktiv i ditt repo [git branch, där '*' är]
-1. Pusha en branch (ej master) till din remote [git push origin {branch-namn}
+1. Pusha en branch (ej master) till din remote [git push origin {branch-namn}]
 1. Verfiera att du nu har branchen tillgänglig i github
 1. Checka ut branchen du pushade lokalt
 1. Gör ändringar och committa
 1. Verifiera att {branch-namn} ligger en commit före origin/{branch-namn} [git log --graph --decorate --all]
+1. Uppdatera din remote till att vara i synk med lokala branches [git push origin {branch-namn}]
+1. Klona ditt remote repo till en ny mapp lokalt
+1. Kontrollera vilka branches du har tillgång till lokalt
+1. Hämta alla dina remote branches till ditt lokala repo [git fetch origin [branch-namn] eller git fetch --all]
+1. Checka ut en branch (ej master). Verifiera att filinnehåll/commit stämmer med head på vald branch
+
 
 
 
