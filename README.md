@@ -21,7 +21,7 @@ Tidskoder:
 
 
 ### Agenda
-#### Git taggning
+#### Git tag
 * Vad är en git tag
 * Varför använda taggar
 * Hur använda taggar
@@ -29,7 +29,7 @@ Tidskoder:
 ##### [Övning 1](ovningar.md)
 ---
  
-#### Git stashning
+#### Git stash
 * Stasha ett dirty directory (modified and staged tracked files)
 * Återställa en stashning (allt blir unstaged)
 * Stasha untracked (untracked, modified and staged tracked files)
@@ -43,7 +43,7 @@ Tidskoder:
 ---
 
  
-#### Git branchning
+#### Git branch
 * Skapa en ny lokal branch från head
 * Växla mellan branches
 * Skapa en ny lokal branch från en commit på tidslinjen
@@ -53,34 +53,22 @@ Tidskoder:
 * fetch/pull remote branches 
    * git fetch command will fetch all the changes on the server that you don’t have yet, it will not modify your working  directory at all. It will simply get the data for you and let you merge it yourself.
    * git pull (fetches and merges)
-
+   * radera en branch (se merge nedan)
+---
 ##### [Övning 3](ovningar.md)
 ---
+#### Git merge
+* Förbered för en merge
+* Merga fast forward
+* Merga recursive
+* Lös merge konflikt manuellt
+* Avbryt en merge
+* Undo en merge
+* radera en mergad branch
 
-* Vanliga misstag och missförståelse vid "hanteringsfel"ex.  lagt till något man ångrar, tagit bort något man ångrar
+
 ---
 ##### [Övning 4](ovningar.md)
 ---
-
-#### Hosted remote repositories såsom Github och Bitbucket
-* Hantera remote repositories (skapa, lägg till ta bort användare, ge ta bort privilegier)
-* Förstå hosted remote repo säkerhet och skillnaden på https och ssh access.
-* Koppla ihop remote och lokala repositories
-* Förstå konsekvenser på tidslinjer och förstå synkning remote-lokalt, lokalt-remote
----
-##### [Övning 5](ovningar.md)
----
-#### Remote repository Readme, wiki och markdown
-* Grunderna i markdown
----
-##### [Övning 6](ovningar.md)
----
-
-#### Bra källor
-* https://illidiumq36.wordpress.com/2017/04/23/start-using-git-for-solo-development-simplified-initial-workflow/
-* https://illidiumq36.wordpress.com/2019/08/19/using-github-to-hand-in-exercises-and-labs-or-sharing-your-code-with-teammates-or-the-world/
-* https://git-scm.com/
-* https://gist.github.com/Chaser324/ce0505fbed06b947d962 (Forkflow)
-* https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests (Pull Requests)
 
 
