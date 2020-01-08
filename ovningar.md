@@ -72,6 +72,24 @@ Illidium-Q35:git-training-kau benc$
 Starta en git session i lämplig terminal och navigera dig till det övningsrepo du skapade i introduktionskursen. 
 Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 
+1. Skapa en ny lokal branch från master branch (head) [git checkout -b {branch-name}]
+1. Skapa en ny tom textfil och committa
+1. Lägg till en rad i nya textfilen och committa
+1. Lägg till en rad i en existerande fil och committa
+1. Checka ut master branchen [git checkout master]
+1. Jämför filer och innehåll mellan master och din branch
+1. Checka ut master branchen
+1. Ändra innehåll i någon existerande fil och committa
+1. Visualisera committs och branches i ditt repo [git log --graph --decorate --all]
+1. Lista dina branches [git branch]
+1. Kontrollera vilken branch som just nu är aktiv i ditt repo [git branch, där '*' är]
+1. Pusha en branch (ej master) till din remote [git push origin {branch-namn}
+1. Verfiera att du nu har branchen tillgänglig i github
+1. Checka ut branchen du pushade lokalt
+1. Gör ändringar och committa
+1. Verifiera att {branch-namn} ligger en commit före origin/{branch-namn} [git log --graph --decorate --all]
+
+
 
 
 
