@@ -95,7 +95,24 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Checka ut en branch (ej master). Verifiera att filinnehåll/commit stämmer med head på vald branch
 
 
+**Övning 4**
 
+1. Skapa en ny branch från master (head)
+1. Skapa en ny fil committa den
+1. Gör ändringar i filen och committa dem
+1. Förbered en merge från din nya branch till master
+1. Merga din nya branch till master, vilken strategi användes? [git checkout master git merge {branch-namn}]
+1. Undo din merge [git reset --hard ORIG_HEAD]
+1. Checka ut master och gör några ändringar som du committar
+1. Förbered en merge från din nya branch till master
+1. Merga din nya branch till master, vilken strategi användes? 
+1. Skapa en ny branch från en tidig commit på branch master [git checkout -b {branch-namn} {hexa}]
+1. Gör några drastiska ändringar i en fil du vet kommer skapa merge konflikter och committa dem
+1. Förbered en merge från din nya branch till master
+1. Försök merga din nya branch avbryt vid problem [git merge --abort]
+1. Försök merga igen och lös merge konflikter manuellt
+1. Ta bort en valfri branch från ditt repo.
+1. Synka med remote
 
 
 
