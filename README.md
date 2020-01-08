@@ -50,8 +50,9 @@ Tidskoder:
 * Lista alla branches i ett repo
 * Remote branches
 * Push branches to remote
-* fetch remote branches
-* Pull remote branches
+* fetch/pull remote branches 
+   * git fetch command will fetch all the changes on the server that you don’t have yet, it will not modify your working  directory at all. It will simply get the data for you and let you merge it yourself.
+   * git pull (fetches and merges)
 
 ##### [Övning 3](ovningar.md)
 ---
