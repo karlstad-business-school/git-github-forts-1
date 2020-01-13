@@ -53,7 +53,8 @@ Tidskoder:
 * fetch/pull remote branches 
    * git fetch command will fetch all the changes on the server that you don’t have yet, it will not modify your working  directory at all. It will simply get the data for you and let you merge it yourself.
    * git pull (fetches and merges)
-   * radera en branch (se merge nedan)
+   * radera en branch (utan att spara ändringar i branchen)
+  
 ---
 ##### [Övning 3](ovningar.md)
 ---
@@ -64,7 +65,7 @@ Tidskoder:
 * Lös merge konflikt manuellt
 * Avbryt en merge
 * Undo en merge
-* radera en mergad branch
+* radera en mergad branch (utan att förlora ändringar i branchen)
 
 
 ---
