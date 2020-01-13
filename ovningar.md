@@ -82,6 +82,7 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Ändra innehåll i någon existerande fil och committa
 1. Visualisera committs och branches i ditt repo [git branch -vv eller git log --graph --decorate --all]
 1. Lista dina branches [git branch eller git branch -a]
+1. Radera en branch (ej master) [git branch -D {branchnamn} gör en forced radering]
 1. Kontrollera vilken branch som just nu är aktiv i ditt repo [git branch, där '*' är]
 1. Pusha en branch (ej master) till din remote [git push origin {branch-namn}]
 1. Verfiera att du nu har branchen tillgänglig i github
@@ -93,6 +94,7 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Kontrollera vilka branches du har tillgång till lokalt
 1. Hämta alla dina remote branches till ditt lokala repo [git fetch origin [branch-namn] eller git fetch --all]
 1. Checka ut en branch (ej master). Verifiera att filinnehåll/commit stämmer med head på vald branch
+1. Radera en branch (ej master) både lokalt och remote [git branch -D {branch-namn} git push origin :{branch-namn}]
 
 
 **Övning 4**
