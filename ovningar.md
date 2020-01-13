@@ -94,7 +94,7 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Kontrollera vilka branches du har tillgång till lokalt
 1. Hämta alla dina remote branches till ditt lokala repo [git fetch origin [branch-namn] eller git fetch --all]
 1. Checka ut en branch (ej master). Verifiera att filinnehåll/commit stämmer med head på vald branch
-1. Radera en branch (ej master) både lokalt och remote [git branch -D {branch-namn} git push origin :{branch-namn}]
+1. Radera en branch (ej master) både lokalt och remote [git branch -D {branch-namn} git push --delete origin {branch-namn}]
 
 
 **Övning 4**
@@ -113,7 +113,7 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Förbered en merge från din nya branch till master
 1. Försök merga din nya branch avbryt vid problem [git merge --abort]
 1. Försök merga igen och lös merge konflikter manuellt
-1. Ta bort en valfri branch från ditt repo.
+1. Ta bort en valfri branch från ditt repo. [git branch -d {branch-namn}]
 1. Synka med remote
 
 
