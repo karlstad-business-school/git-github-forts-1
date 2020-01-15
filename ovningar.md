@@ -22,7 +22,7 @@ ex git tag -a v2 -m "Detta är version 1"
 
 
 
-**Övning 2**
+**(#Övning 2)**
 Starta en git session i lämplig terminal och navigera dig till det övningsrepo du skapade i introduktionskursen. 
 Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Gör en förändring i en fil och stagea filen.
