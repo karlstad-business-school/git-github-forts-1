@@ -53,7 +53,8 @@ Tidskoder:
 * fetch/pull remote branches 
    * git fetch command will fetch all the changes on the server that you don’t have yet, it will not modify your working  directory at all. It will simply get the data for you and let you merge it yourself.
    * git pull (fetches and merges)
-   * radera en branch (utan att spara ändringar i branchen)
+* radera en branch (utan att spara ändringar i branchen)
+* Klona en branch från ett repository (Clone only the history leading to the tip of a single branch)
   
 ---
 ##### [Övning 3](ovningar.md)
