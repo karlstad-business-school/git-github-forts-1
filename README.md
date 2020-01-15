@@ -39,7 +39,7 @@ Tidskoder:
 * Ta bort en stash
 
 ---
-##### [Övning 2](ovningar.md#övning2)
+##### [Övning 2](ovningar.md#-ovning2)
 ---
 
  
