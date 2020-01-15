@@ -116,6 +116,8 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Försök merga igen och lös merge konflikter manuellt
 1. Ta bort en valfri branch från ditt repo. [git branch -d {branch-namn}]
 1. Synka med remote
+1. Skapa en ny branch med några committs i.
+1. Gör en squash merge
 
 
 
