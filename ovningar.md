@@ -95,6 +95,7 @@ Har du inte kvar repot lokalt borde du kunna klona det från ditt github konto.
 1. Hämta alla dina remote branches till ditt lokala repo [git fetch origin [branch-namn] eller git fetch --all]
 1. Checka ut en branch (ej master). Verifiera att filinnehåll/commit stämmer med head på vald branch
 1. Radera en branch (ej master) både lokalt och remote [git branch -D {branch-namn} git push --delete origin {branch-namn}]
+1. Checka ut enbart en branch från ditt remote repo [git clone {repo-namn} --branch {branch-namn} --single-branch {{root-mapp-namn}}
 
 
 **Övning 4**
